@@ -1,4 +1,4 @@
-/*
+/*      nomor 1
 const readLineSync = require('readline-sync');
 
         let a = parseFloat(readLineSync.question('masukkan nilai untuk a: '));
@@ -11,6 +11,7 @@ const readLineSync = require('readline-sync');
         
 */
 
+// nomor 2
 const readLineSync = require('readline-sync');
 
         let t = parseFloat(readLineSync.question('masukkan nilai untuk t: '));
@@ -20,7 +21,7 @@ const readLineSync = require('readline-sync');
 
         console.log("Jumlah nilai t + y ** 2 : " + hitung);
 
-/**
+/*      nomor 3
 const readLineSync = require('readline-sync');
 
         let a = parseFloat(readLineSync.question('masukkan nilai untuk a: '));
