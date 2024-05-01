@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        const readLineSync = require('readline-sync');
+
+        let panjang = parseFloat(readLineSync.question('masukkan panjang persegi panjang: '));
+        let lebar = parseFloat(readLineSync.question('masukkan lebar pergei panjang: '));
+
+        let luas = panjang * lebar ;
+
+        console.log("Luas persegi panjang adalah : " + luas.toFixed(2));        
+    </script>
+</body>
+</html>
